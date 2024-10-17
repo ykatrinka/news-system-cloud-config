@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: comments-service
+  liquibase:
+    change-log: db.changelog/changelog-master.xml
+  jpa:
+    generate-ddl: false
+    show-sql: true
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    ru.clevertec: debug
+  file:
+    name: ./logs/log-file.log
+server:
+  port: 8082

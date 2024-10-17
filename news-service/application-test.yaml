@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/news_system
+    username: postgres
+    password: postgres
+  feign:
+    client:
+      comments-service:
+        name: comments-service
+        url: "http://localhost:8082"

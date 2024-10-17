@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/news_system
+    username: postgres
+    password: postgres
+  feign:
+    client:
+      news-service:
+        name: news-service
+        url: "http://localhost:8081"

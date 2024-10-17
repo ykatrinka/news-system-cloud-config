@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: news-service
+  liquibase:
+    change-log: db.changelog/changelog-master.xml
+    enabled: false
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    open-in-view: false
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    ru.clevertec: debug
+  file:
+    name: ./logs/log-file.log
+server:
+  port: 8081

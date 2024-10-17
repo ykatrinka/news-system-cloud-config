@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://news-db:5432/news_system
+    username: postgres
+    password: postgres
+  data:
+    redis:
+      host: cache-redis
+      port: 6379
+  cache:
+    type: redis
+  feign:
+    client:
+      news-service:
+        name: news-service
+        url: "http://news-service:8081"
