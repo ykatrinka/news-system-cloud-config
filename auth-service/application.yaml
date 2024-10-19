@@ -17,5 +17,5 @@ server:
   port: 8003
 security:
   jwt:
-    secret-key: 'mtc3334dwMITX7fn5nveWDs8MTXyfmZ53JmdcySpd2o'
+    secret-key: "mtc3334dwMITX7fn5nveWDs8MTXyfmZ53JmdcySpd2o"
     expiration-time: 3600000
