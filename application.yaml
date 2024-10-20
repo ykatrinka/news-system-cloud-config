@@ -1,4 +1,4 @@
 security:
   jwt:
-    secret-key: ${JWT_SECRET}
+    secret-key: "mtc3334dwMITX7fn5nveWDs8MTXyfmZ53JmdcySpd2o"
     expiration-time: 3600000
