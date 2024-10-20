@@ -9,3 +9,6 @@ spring:
       news-service:
         name: news-service
         url: "http://localhost:8081"
+      auth-service:
+        name: auth-service
+        url: "http://localhost:8003"

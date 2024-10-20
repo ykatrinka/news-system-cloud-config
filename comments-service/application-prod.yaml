@@ -15,3 +15,6 @@ spring:
       news-service:
         name: news-service
         url: "http://news-service:8081"
+      auth-service:
+        name: auth-service
+        url: "http://auth-service:8003"
